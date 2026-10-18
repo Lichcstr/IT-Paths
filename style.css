@@ -104,7 +104,7 @@ header {
 /* home page */
 
 .hero {
-    min-height: 70vh;
+    min-height: 65vh;
     background-image: url("Web Images/hero-bg.png");
     background-size: cover;
     background-position: center;
@@ -115,6 +115,18 @@ header {
     align-items: center;
     text-align: center;
     color: white;
+}
+
+.hero h1 {
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+.hero p {
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.emphasis {
+    color: #000;
 }
 
 /* From Uiverse.io by McHaXYT */ 
@@ -140,4 +152,39 @@ header {
 
 .button-span {
   color: #aaa;
+}
+
+
+/* career section */
+.career-guidance {
+    min-height: 45vh;
+    background-color: #194675;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: left;
+    justify-content: left;
+    align-items: left;
+    color: white;
+    font-size: 20px;
+}
+
+.career-content {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 60px;
+    max-width: 550px;
+}
+
+.career-content h2 {
+    font-size: 35px;
+    text-align: left;
+    justify-content: left;
+    flex: auto;
+}
+
+.career-content p {
+    font-size: 20px;
+    text-align: left;
 }

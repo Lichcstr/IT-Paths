@@ -267,3 +267,125 @@ header {
     font-weight: 600;
     border-radius: 8px;
 }
+
+/* Card List of Careers */
+
+
+.careers-directory {
+    padding: 0;
+    background-color: #F3F7FB;
+    color: #17253D;
+}
+
+.directory-heading {
+    padding: 65px 60px;
+    background-color: #E5EEF7;
+    margin-bottom: 0;
+}
+
+.directory-heading h2 {
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 10px;
+    color: #194675;
+}
+
+.directory-heading p {
+    text-align: center;
+    font-size: 18px;
+    color: #536579;
+}
+
+.career-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 60px 80px;
+}
+
+.career-card {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 35px;
+
+    background-color: #FFFFFF;
+    border: 1px solid #DCE5EF;
+    border-radius: 14px;
+
+    transition: transform 0.25s ease,
+                box-shadow 0.25s ease,
+                border-color 0.25s ease;
+}
+
+.career-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 30px rgba(25, 70, 117, 0.12);
+    border-color: #194675;
+}
+
+.career-number {
+    font-size: 34px;
+    font-weight: 700;
+    color: #194675;
+    min-width: 55px;
+}
+
+.career-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.career-info h3 {
+    font-size: 24px;
+    margin-bottom: 8px;
+    color: #194675;
+}
+
+.career-info h4 {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #263E59;
+}
+
+.career-info p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #536579;
+    max-width: 850px;
+}
+
+.career-card a {
+    color: #194675;
+    font-weight: 700;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: color 0.2s ease;
+}
+
+.career-card a:hover {
+    color: #C58C20;
+}
+
+
+@media (max-width: 768px) {
+    .directory-heading {
+        padding: 45px 20px;
+    }
+
+    .career-grid {
+        padding: 30px 20px 50px;
+    }
+
+    .career-card {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        padding: 25px;
+    }
+
+    .career-info h3 {
+        font-size: 21px;
+    }
+}

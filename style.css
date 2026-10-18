@@ -1,6 +1,15 @@
 
 /* global/default stuff */
 
+@font-face {
+    font-family: 'Outfit';
+    src: url('Fonts/Outfit-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -104,7 +113,7 @@ header {
 /* home page */
 
 .hero {
-    min-height: 65vh;
+    min-height: 95vh;
     background-image: url("Web Images/hero-bg.png");
     background-size: cover;
     background-position: center;
@@ -117,16 +126,26 @@ header {
     color: white;
 }
 
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
 .hero h1 {
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+    font-family: "Montserrat", sans-serif;
 }
 
 .hero p {
-    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.7);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
 }
 
 .emphasis {
-    color: #000;
+    color: #FFD166;
 }
 
 /* From Uiverse.io by McHaXYT */ 
@@ -157,7 +176,8 @@ header {
 
 /* career section */
 .career-guidance {
-    min-height: 45vh;
+    min-height: 20vh;
+    background-image: url("Web Images/SS2BG.jpg");
     background-color: #194675;
     background-size: cover;
     background-position: center;
@@ -168,6 +188,7 @@ header {
     align-items: left;
     color: white;
     font-size: 20px;
+    padding: 120px 20px;
 }
 
 .career-content {
@@ -176,6 +197,17 @@ header {
     margin-left: 60px;
     max-width: 550px;
 }
+
+
+.career-content h2 {
+    font-size: 35px;
+    line-height: 1.3;
+    max-width: 550px;
+    text-align: left;
+    text-wrap: balance;
+    margin-bottom: 20px;
+}
+
 
 .career-content h2 {
     font-size: 35px;
@@ -187,4 +219,51 @@ header {
 .career-content p {
     font-size: 20px;
     text-align: left;
+}
+
+/* Career Page */
+
+
+.careers-hero {
+    min-height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("Web Images/SS2BG.jpg");
+    padding: 80px 30px;
+    background-color: #194675;
+    color: white;
+}
+
+.careers-hero-content {
+    max-width: 750px;
+}
+
+.careers-hero h1 {
+    font-size: clamp(36px, 5vw, 60px);
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.careers-hero h1 span {
+    color: #FFD166;
+}
+
+.careers-hero p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.careers-hero a {
+    display: inline-block;
+    padding: 15px 30px;
+
+    background-color: #FFD166;
+    color: #17253D;
+
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 8px;
 }

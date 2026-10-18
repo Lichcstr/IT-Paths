@@ -1,74 +1,143 @@
+
+/* global/default stuff */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-    html  {
-        scroll-behavior: smooth;
-        scroll-padding-top: 100px;
-    }
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
 
-    body {
-        min-height: 100vh;
-        overflow-x: hidden;
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
 
-        font-family: Arial, monospace,  sans-serif, Helvetica;
-        line-height: 1.6;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
 
-        background-color: #ffffff;
-        color: #161617;
-    }
+    background-color: #ffffff;
+    color: #161617;
+}
 
-    a {
-        color: #202123;
-    }
+::selection {
+    background-color: #202123;
+    color: #ffffff;
+}
 
-    ::selection {
-        background-color: #202123;
-        color: #ffffff;
-    }
+/* logo (IT Paths) */
 
 
-    header {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 60px;
-        background-color: #695cff;
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 45px;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    background: rgba(18, 63, 70, 0.45);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
 
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0 30px;
-        z-index: 1000;
-    }
 
-    .navbar {
-        display: flex;
-        gap: 80px;
-    }
+/* Above the Screen */
 
-    .navbar a {
+.nav-links a {
     color: white;
     text-decoration: none;
-    }
+    transition: color 0.2s ease;
+}
 
-    .logo {
+.nav-links a:hover {
+    color: #FFD166;
+}
+
+.nav-links {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.logo {
     color: white;
     font-weight: bold;
-    }
+}
 
+
+.settings {
+    position: absolute;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.settings-icon {
+    width: 22px;
+    height: 22px;
+    transition: transform 0.3s ease;
+}
+
+.settings:hover .settings-icon {
+    transform: rotate(45deg);
+    filter: brightness(0) saturate(100%)
+            invert(84%) sepia(54%)
+            saturate(657%) hue-rotate(335deg)
+            brightness(103%) contrast(101%);
+}
+
+
+/* home page */
 
 .hero {
-    background-color: #44b4ec;
-    color: #ffffff;
-
-    min-height: calc(80vh - 60px);
+    min-height: 70vh;
+    background-image: url("Web Images/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    color: white;
+}
+
+/* From Uiverse.io by McHaXYT */ 
+.button {
+  padding: 15px 20px;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  margin-top: 15px;
+  background-color: #FFD166;
+  color: #343435;
+  border-radius: 7px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+}
+
+
+.button:hover {
+    background-color: rgb(255, 255, 255);
+    transform: translateY(-10px) scale(1.1);
+}
+
+.button-span {
+  color: #aaa;
 }

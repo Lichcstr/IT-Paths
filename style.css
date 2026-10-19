@@ -56,6 +56,16 @@ header {
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+/* copyright thingy */
+
+.contentinfo {
+    font-weight: bold;
+    font-style: italic;
+    background-color: #F3F7FB;
+    text-align: center;
+
+}
+
 
 /* Above the Screen */
 

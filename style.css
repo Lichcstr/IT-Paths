@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
 /* global/default stuff */
 
@@ -7,8 +8,6 @@
     font-weight: 100 900;
     font-style: normal;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
 * {
     margin: 0;
@@ -39,7 +38,6 @@ body {
 
 /* logo (IT Paths) */
 
-
 header {
     position: absolute;
     top: 0;
@@ -63,9 +61,7 @@ header {
     font-style: italic;
     background-color: #F3F7FB;
     text-align: center;
-
 }
-
 
 /* Above the Screen */
 
@@ -93,7 +89,6 @@ header {
     font-weight: bold;
 }
 
-
 .settings {
     position: absolute;
     right: 10px;
@@ -119,7 +114,6 @@ header {
             brightness(103%) contrast(101%);
 }
 
-
 /* home page */
 
 .hero {
@@ -136,14 +130,12 @@ header {
     color: white;
 }
 
-
 .montserrat {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
 }
-
 
 .hero h1 {
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
@@ -158,7 +150,8 @@ header {
     color: #FFD166;
 }
 
-/* From Uiverse.io by McHaXYT */ 
+/* From Uiverse.io by McHaXYT */
+
 .button {
   padding: 15px 20px;
   font-size: 15px;
@@ -173,7 +166,6 @@ header {
   transition: all 0.25s ease-out;
 }
 
-
 .button:hover {
     background-color: rgb(255, 255, 255);
     transform: translateY(-10px) scale(1.1);
@@ -183,8 +175,8 @@ header {
   color: #aaa;
 }
 
-
 /* career section */
+
 .career-guidance {
     min-height: 20vh;
     background-image: url("Web Images/SS2BG.jpg");
@@ -193,9 +185,9 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
-    flex-direction: left;
-    justify-content: left;
-    align-items: left;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
     color: white;
     font-size: 20px;
     padding: 120px 20px;
@@ -208,7 +200,6 @@ header {
     max-width: 550px;
 }
 
-
 .career-content h2 {
     font-size: 35px;
     line-height: 1.3;
@@ -218,11 +209,10 @@ header {
     margin-bottom: 20px;
 }
 
-
 .career-content h2 {
     font-size: 35px;
     text-align: left;
-    justify-content: left;
+    justify-content: flex-start;
     flex: auto;
 }
 
@@ -232,7 +222,6 @@ header {
 }
 
 /* Career Page */
-
 
 .careers-hero {
     min-height: 75vh;
@@ -279,7 +268,6 @@ header {
 }
 
 /* Card List of Careers */
-
 
 .careers-directory {
     padding: 0;
@@ -378,7 +366,6 @@ header {
     color: #C58C20;
 }
 
-
 @media (max-width: 768px) {
     .directory-heading {
         padding: 45px 20px;
@@ -400,8 +387,6 @@ header {
     }
 }
 
-
-
 .career-guidance {
     display: flex;
     align-items: center;
@@ -414,7 +399,6 @@ header {
     flex: 1;
     min-width: 0;
 }
-
 
 .career-video {
     flex: 1;
@@ -430,7 +414,6 @@ header {
     border-radius: 12px;
 }
 
-
 @media (max-width: 768px) {
     .career-guidance {
         flex-direction: column;
@@ -444,9 +427,7 @@ header {
     }
 }
 
-
 /* contacts & about page */
-
 
 .about,
 .contacts {
@@ -552,8 +533,6 @@ header {
     color: #e7b64b;
 }
 
-
-
 .about-info {
     min-height: 100vh;
     padding: 100px 10%;
@@ -630,10 +609,7 @@ header {
     }
 }
 
-
-
 /* transition */
-
 
 @view-transition {
     navigation: auto;
@@ -666,9 +642,7 @@ header {
     }
 }
 
-
 /* Mobile UI Hotfix */
-
 
 @media (max-width: 768px) {
 
@@ -928,8 +902,6 @@ header {
         font-size: 19px;
     }
 }
-
-
 
 .about-info {
     background-image: url("Web Images/SS2BG.jpg");

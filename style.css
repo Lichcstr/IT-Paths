@@ -51,7 +51,7 @@ header {
     align-items: center;
     background: rgba(18, 63, 70, 0.45);
     backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 

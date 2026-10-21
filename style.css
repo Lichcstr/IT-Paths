@@ -683,6 +683,8 @@ header {
         min-height: 110px;
         padding: 15px 16px;
 
+        background: rgba(16, 45, 56, 0.9);
+
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -743,7 +745,7 @@ header {
     }
 
     .hero-content h1:first-child {
-        font-size: clamp(30px, 8vw, 42px);
+        font-size: clamp(28px, 7vw, 38px);
         line-height: 1.2;
         margin-bottom: 20px;
     }

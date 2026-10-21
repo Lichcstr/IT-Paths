@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
 /* global/default stuff */
@@ -611,18 +612,6 @@ header {
 
 /* transition */
 
-@view-transition {
-    navigation: auto;
-}
-
-::view-transition-old(root) {
-    animation: 0.25s ease-out both fade-out;
-}
-
-::view-transition-new(root) {
-    animation: 0.35s ease-in both fade-in;
-}
-
 @keyframes fade-out {
     to {
         opacity: 0;
@@ -632,13 +621,6 @@ header {
 @keyframes fade-in {
     from {
         opacity: 0;
-    }
-}
-
-@media (prefers-reduced-motion: reduce) {
-    ::view-transition-old(root),
-    ::view-transition-new(root) {
-        animation-duration: 0.01ms;
     }
 }
 

@@ -55,7 +55,7 @@ header {
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-/* copyright thingy */
+/* copyright remarks at the bot/footer */
 
 .contentinfo {
     font-weight: bold;
@@ -64,7 +64,7 @@ header {
     text-align: center;
 }
 
-/* Above the Screen */
+/* nav bar */
 
 .nav-links a {
     color: white;
@@ -884,6 +884,8 @@ header {
         font-size: 19px;
     }
 }
+
+/* about bg img */
 
 .about-info {
     background-image: url("Web Images/SS2BG.jpg");

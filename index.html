@@ -6,6 +6,7 @@
     <title>IT Paths</title>
     <link rel="preload" href="style.css" as="style">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <!-- Header Section -->
@@ -15,7 +16,7 @@
         <nav class="nav-links">   
             <a href="index.html">Home</a>
             <a href="careers.html">Careers</a>
-            <a href="#Contacts">Contacts</a>
+            <a href="contacts.html">Contacts</a>
             <a href="about.html">About</a>
         </nav>
 
@@ -56,42 +57,20 @@
         </div>
         
         
-        <div class="career-video">
-            <video controls>
-                <source src="Web%20Videos/red.mp4" type="video/mp4">
-                Your browser does not support video playback.
-            </video>
-        </div>
+            <div class="career-video">
 
+                <iframe
+                    class="youtube-video"
+                    src="https://www.youtube.com/embed/XmWkcePhf84"
+                    allowfullscreen>
+                </iframe>
 
-    </section>
+                <video class="local-video" controls style="display: none;">
+                    <source src="Web%20Videos/red.mp4" type="video/mp4">
+                </video>
 
-    <!-- Contacts -->
-
-    <section id="Contacts" class="contacts">
-        <div class="contacts-content">
-
-            <span class="contact-label">Contact Us</span>
-
-            <h2>Connect with us.</h2>
-
-            <p>
-                Have a question about IT careers, or a suggestion
-                to improve IT Paths? We'd love to hear from you.
-            </p>
-
-            <div class="contact-options">
-                <a href="mailto:itpathsbusinessemail@gmail.com" class="contact-link">
-                    Send an Email →
-                </a>
-
-                <a href="mailto:itpathsbusinessemail@gmail.com?subject=IT%20Paths%20Feedback"
-                class="feedback-link">
-                    Share Feedback ↗
-                </a>
             </div>
 
-        </div>
     </section>
 
     <!-- Copyright Infringement -->

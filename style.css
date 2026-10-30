@@ -118,7 +118,7 @@ header {
 /* home page */
 
 .hero {
-    min-height: 95vh;
+    min-height: 100vh;
     background-image: url("Web Images/hero-bg.png");
     background-size: cover;
     background-position: center;
@@ -179,7 +179,7 @@ header {
 /* career section */
 
 .career-guidance {
-    min-height: 20vh;
+    min-height: 80vh;
     background-image: url("Web Images/SS2BG.jpg");
     background-color: #194675;
     background-size: cover;
@@ -191,12 +191,11 @@ header {
     align-items: flex-start;
     color: white;
     font-size: 20px;
-    padding: 120px 20px;
 }
 
 .career-content {
     font-size: 20px;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 60px;
     max-width: 550px;
 }
@@ -401,6 +400,8 @@ header {
     min-width: 0;
 }
 
+/* Career Vod */
+
 .career-video {
     flex: 1;
     min-width: 0;
@@ -413,6 +414,14 @@ header {
     aspect-ratio: 9 / 16;
     object-fit: cover;
     border-radius: 12px;
+}
+
+.career-video iframe {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 12px;
+    border: none;
 }
 
 @media (max-width: 768px) {
@@ -437,13 +446,13 @@ header {
 }
 
 .about {
-    padding: 69px 10%;
+    padding: 100px 10%;
     background-color: #102d38;
 }
 
 .contacts {
-    padding: 60px 10%;
-    background-color: #173b46;
+    padding: 100px 10%;
+    background-image: url("Web\ Images/SS2BG.jpg");
 }
 
 .about-content,
@@ -533,6 +542,25 @@ header {
 .feedback-link:hover {
     color: #e7b64b;
 }
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+/* About sec */
 
 .about-info {
     min-height: 100vh;
@@ -875,7 +903,6 @@ header {
     .nav-links a {
         font-size: 13px;
     }
-
     .hero-content h1:first-child {
         font-size: 29px;
     }

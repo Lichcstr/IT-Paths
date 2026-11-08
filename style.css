@@ -62,6 +62,7 @@ header {
     font-style: italic;
     background-color: #F3F7FB;
     text-align: center;
+    width: 100%;
 }
 
 /* nav bar */
@@ -547,6 +548,8 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+    margin: 0; 
 }
 
 .contacts {
@@ -916,4 +919,62 @@ footer {
 
 .about-info {
     background-image: url("Web Images/SS2BG.jpg");
+}
+
+/* Career OL fix */
+
+.career-grid {
+    list-style: none;
+    padding: 0 24px;
+    margin: 0;
+}
+
+/* Essential Skills Sect */
+
+.essential-skills {
+    min-height: 40vh;
+    background-image: url("Web Images/SS2BG.jpg");
+    background-color: #194675;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.skills-content {
+    margin-top: 10vh;
+    font-size: 20px;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.skills-content p {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Contact Form Sect */
+
+.contact-form {
+    min-height: 40vh;
+    background-color: #7c808a;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contact-form h2 {
+    margin-top: 10vh;
+    font-size: 40px;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-form p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: white;
+    align-items: center;
+    text-align: center;
 }

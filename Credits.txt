@@ -1,0 +1,41 @@
+ITPATHS - SOURCES AND ATTRIBUTIONS
+==================================
+
+1. Web Images:
+
+Home Page Background - https://www.rbc.ua/rus/lifestyle/sigma-zhinka-10-oznak-togo-shcho-vi-nalezhite-1777309852.html
+
+Patterned Background - https://www.greatwatersfinancial.com/about
+
+Settings Icon - AI generated settings icon (Chatgpt)
+
+2. Web Videos:
+
+Zhajie Red Alvarez - Easter egg video 
+
+Youtube Video - A Guide of how to get started in IT by TechWorld with Nana
+
+3. Code:
+
+Buttons Source Design - from Uiverse.io by MCHaXYT
+
+Mobile UI css code - from chatgpt (ai code)
+
+4. Info's:
+
+Careers - PPT's from Sir Edison Templo
+
+Essential IT Skills - TBLA
+
+5. Fonts:
+
+DMSerifDisplay - Google fonts
+
+Outfit font - Google fonts
+
+Montserrat - Google fonts
+
+=======================================================================
+All third-party assets and code are credited to their respective owners.
+
+Sincerely, ITPATHS Development Team.

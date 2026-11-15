@@ -7,6 +7,8 @@ Home Page Background - https://www.rbc.ua/rus/lifestyle/sigma-zhinka-10-oznak-to
 
 Patterned Background - https://www.greatwatersfinancial.com/about
 
+Essential Skills Image - https://karriarguiden.se/guide/hur-mycket-tjanar-en-cybersakerhetsspecialist-2025
+
 Settings Icon - AI generated settings icon (Chatgpt)
 
 2. Web Videos:
@@ -35,7 +37,10 @@ Outfit font - Google fonts
 
 Montserrat - Google fonts
 
+Segou Ui - Google fonts
+
 =======================================================================
 All third-party assets and code are credited to their respective owners.
 
 Sincerely, ITPATHS Development Team.
+Lich, Red, Pabit.

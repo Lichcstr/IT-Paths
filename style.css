@@ -932,12 +932,20 @@ footer {
 /* Essential Skills Sect */
 
 .essential-skills {
-    min-height: 40vh;
+    min-height: 50vh;
     background-image: url("Web Images/SS2BG.jpg");
     background-color: #194675;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.skills {
+  list-style: disc;          
+  width: fit-content;        
+  margin: 0 auto;            
+  padding-left: 20px;       
+  text-align: left;         
 }
 
 .skills-content {

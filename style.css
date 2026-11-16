@@ -993,8 +993,8 @@ footer {
     }
 
     .skills-content {
-        grid-template-columns: minmax(0, 1fr);   /* stops the column from overflowing */
-        padding: 0 8vw;                          /* equal space on left and right */
+        grid-template-columns: minmax(0, 1fr);   
+        padding: 0 8vw;                    
         font-size: 18px;
         box-sizing: border-box;
     }
@@ -1005,7 +1005,7 @@ footer {
     }
 
     .skills {
-        width: auto;            /* removes fit-content, which caused the overflow */
+        width: auto;           
         margin-left: 0;
         margin-right: 0;
     }

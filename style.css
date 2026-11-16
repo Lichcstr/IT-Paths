@@ -1136,3 +1136,65 @@ footer {
     color: #ffffff;
     opacity: 1;
 }
+
+/* REFERENCES AND ATTRIBUTIONS   */
+
+.references {
+    width: 85%;
+    max-width: 1100px;
+    margin: 80px auto;
+}
+
+.references-content {
+    margin-bottom: 35px;
+}
+
+.references-content h2 {
+    margin: 15px 0;
+}
+
+.references-content > p {
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.reference-category {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+    padding: 18px 5px;
+}
+
+.reference-category summary {
+    font-weight: 600;
+    cursor: pointer;
+    list-style-position: inside;
+    transition: opacity 0.2s ease;
+}
+
+.reference-category summary:hover {
+    opacity: 0.7;
+}
+
+.reference-category ul {
+    padding-left: 25px;
+    margin-top: 18px;
+}
+
+.reference-category li {
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+.reference-category a {
+    text-decoration: underline;
+    color: inherit;
+}
+
+.references-acknowledgment {
+    margin-top: 35px;
+    line-height: 1.7;
+}
+
+.references-team {
+    margin-top: 25px;
+    line-height: 1.8;
+}
